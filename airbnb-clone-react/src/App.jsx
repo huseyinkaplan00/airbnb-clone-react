@@ -8,7 +8,7 @@ const App = () => {
 		return(
 			
 			<Card  
-			items= {items}
+			{...items}
 			key={items.key}
 			
 			/>
@@ -20,10 +20,10 @@ const App = () => {
 		<div className="container__main">
 			<Navbar />
 			<Hero />
-			{/* <section className="card-list">
+			<section className="card-list">
 				{cards}
-			</section> */}
-			<Card />
+			</section>
+			{/* <Card /> */}
 		</div>
 	)
 }
