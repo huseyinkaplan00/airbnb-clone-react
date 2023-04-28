@@ -7,12 +7,12 @@ const Card = (props) => {
 			{/* <div className="badget">Sold Out && Online</div> */}
 			<img
 				className="main--image"
-				src={`./${props.coverImg}`}
+				src={`./public/${props.coverImg}`}
 			></img>
 			<div className="card-stats">
 				<img
 					className="star--icon"
-					src="./star.png"
+					src="./public/star.png"
 					alt="start icon"
 				></img>{" "}
 				<span>{props.stats.rating}</span>
