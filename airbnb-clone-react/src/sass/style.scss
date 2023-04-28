@@ -20,7 +20,6 @@ body {
 		background: #ffffff;
 		box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 		padding: 10px;
-
 		img {
 			margin: 11px 0 11.05px 30.01px;
 		}
@@ -99,6 +98,15 @@ body {
 			}
 		}
 	}
+
+	footer {
+		background: white;
+		text-align: center;
+		height: 70px;
+		padding: 1.4em;
+		color: #c1c1c1;
+		box-shadow: 0px -2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+	}
 }
 
 //desktop queries {}
@@ -107,6 +115,11 @@ body {
 	//header
 	#root > div > nav {
 		height: 83px;
+		justify-content: center;
+	}
+
+	#root > div > div {
+		margin: 2.5em 0;
 	}
 
 	#root > div > div > img {
@@ -114,13 +127,20 @@ body {
 		margin: 17px 0;
 	}
 
+	#root > div > div > div {
+		margin: 4em 0;
+	}
+
 	#root > div > div > div > h1 {
 		font-size: 65px;
+		text-align: center;
+		width: 100%;
 	}
 
 	#root > div > div > div > p {
 		max-width: 768px;
 		font-size: 20px;
+		text-align: center;
 	}
 
 	#root .card__section {
@@ -131,5 +151,9 @@ body {
 			width: 100%;
 			height: 345px;
 		}
+	}
+
+	footer {
+		height: 83px;
 	}
 }
